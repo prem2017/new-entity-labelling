@@ -1,3 +1,4 @@
+
 # New Entity Labelling
 
  * Typically the pretrained natural language processing (NLP) models are trained to recognise limited [entities](https://spacy.io/api/annotation#named-entities). 
@@ -19,7 +20,7 @@
  * One can read this paper by [Akbik et al.](https://alanakbik.github.io/papers/coling2018.pdf), this should help in understanding the algorithm behind the sequence labelling (i.e. multiple-word entities). 
 
 
- * [FAQ](#faq)
+ * [FAQ](#faq): Please do read faq for more clarification. 
 
 
 
@@ -85,6 +86,7 @@
 ## <a id='faq'>FAQ</a>
 
 **Q**: Will the training for new types of entities can harm the previously learned entities?
+
 **ANS** Yes, most likely if the older type is not included in current training data. 
 ```
 # Note: If you're using an existing model, make sure to mix in examples of
