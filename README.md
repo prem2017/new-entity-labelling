@@ -1,5 +1,8 @@
 
-# New Entity Labelling
+# Custom Named Entity Recognizer (NER)
+
+![Color Encoded Entities](images/ner.png)
+
 
  * Typically the pretrained natural language processing (NLP) models are trained to recognise limited [entities](https://spacy.io/api/annotation#named-entities). 
 
